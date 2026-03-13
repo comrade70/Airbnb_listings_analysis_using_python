@@ -1,2 +1,118 @@
-# Airbnb_listings_analysis_using_python
-This repo is a collection of python codes for analysing Airbnb listings data. Operations that are performed include:  data cleaning, QA, aggregation, and visualisation
+# AirBnB Listing Analysis Using Python
+
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue?logo=python&logoColor=white)
+
+## Project Overview
+This project analyzes **Airbnb listings data** to uncover insights about **pricing, neighbourhood trends, accommodation capacity, and host growth over time in Paris**.
+
+Using **Python and data analysis libraries**, the project explores the dataset, performs data quality checks, prepares aggregated tables, and creates visualizations to better understand the Airbnb market in Paris.
+
+The workflow includes **data exploration, transformation, and visualization** to answer key business questions.
+
+---
+
+# Objectives
+
+## 1. Data Exploration & Quality Assessment
+The first phase focuses on understanding the dataset and identifying potential quality issues.
+
+Key steps include:
+
+- Importing the dataset using **Pandas**
+- Converting the `host_since` column into **datetime format**
+- Filtering the dataset to include only **Paris listings**
+- Selecting relevant columns:
+  - `host_since`
+  - `neighbourhood`
+  - `city`
+  - `accommodates`
+  - `price`
+- Performing **data quality checks**
+  - Checking for missing values
+  - Computing minimum, maximum, and average values for numeric columns
+
+---
+
+## 2. Data Preparation
+To support analysis and visualization, the dataset is transformed into summary tables.
+
+### Neighbourhood Pricing Analysis
+
+A table called:
+
+`paris_listings_neighbourhood`
+
+This table:
+
+- Groups listings by **neighbourhood**
+- Calculates the **average price per neighbourhood**
+- Sorts neighbourhoods by **highest average price**
+
+---
+
+### Accommodation Pricing Analysis
+
+A second table called:
+
+`paris_listing_accommodates`
+
+This table:
+
+- Filters the dataset to the **most expensive neighbourhood**
+- Groups listings by **number of guests accommodated**
+- Calculates the **average price for each accommodation size**
+
+---
+
+### Host Growth Over Time
+
+A third table called:
+
+`paris_listings_over_time`
+
+This table groups listings by the **year hosts joined Airbnb** and calculates:
+
+- **Number of new hosts per year**
+- **Average listing price per year**
+
+---
+
+# Data Visualizations
+
+The project produces several charts to communicate insights clearly.
+
+### 1. Average Price by Neighbourhood
+
+A **horizontal bar chart** showing:
+
+- Average Airbnb price across neighbourhoods in Paris
+- Comparison of high-value and lower-value locations
+
+---
+
+### 2. Price vs Accommodation Size
+
+A **horizontal bar chart** illustrating:
+
+- The relationship between **price and number of guests accommodated**
+- Focused on the **most expensive neighbourhood**
+
+---
+
+### 3. Host Growth vs Price Over Time
+
+A **dual-axis chart** displaying:
+
+- **New Airbnb hosts joining per year**
+- **Average listing price over time**
+
+This visualization highlights **how platform growth correlates with pricing trends**.
+
+---
+
+# Technologies Used
+
+- **Python**
+- **Pandas** – Data manipulation and analysis
+- **Matplotlib** and **Seaborn** – Data visualization
+- **Jupyter Notebook** – Interactive analysis environment
