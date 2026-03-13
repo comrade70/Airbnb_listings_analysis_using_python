@@ -5,9 +5,15 @@
 ## Project Overview
 This project analyzes **Airbnb listings data** to uncover insights about **pricing, neighbourhood trends, accommodation capacity, and host growth over time in Paris**.
 
-Using **Python and data analysis libraries**, the project explores the dataset, performs data quality checks, prepares aggregated tables, and creates visualizations to better understand the Airbnb market in Paris.
+Using **Python and data analysis libraries**, the project explores the dataset, performs data quality checks, prepares aggregated tables, and creates visualisations to better understand the Airbnb market in Paris.
 
-The workflow includes **data exploration, transformation, and visualization** to answer key business questions.
+The workflow includes **data exploration, transformation, and visualisation** to answer key business questions.
+
+---
+
+# Resource
+
+Download the [dataset](https://drive.google.com/file/d/1iAbKh-olyOM6uTUgXBwEZE2_545Mhh_5/view?usp=sharing "Listings.csv")
 
 ---
 
@@ -34,7 +40,7 @@ Key steps include:
 ---
 
 ## 2. Data Preparation
-To support analysis and visualization, the dataset is transformed into summary tables.
+To support analysis and visualisation, the dataset is transformed into summary tables.
 
 ### Neighbourhood Pricing Analysis
 
@@ -77,7 +83,7 @@ This table groups listings by the **year hosts joined Airbnb** and calculates:
 
 ---
 
-# Data Visualizations
+# Data Visualisations
 
 The project produces several charts to communicate insights clearly.
 
@@ -95,13 +101,12 @@ A **horizontal bar chart** showing:
 A **horizontal bar chart** illustrating:
 
 - The relationship between **price and number of guests accommodated**
-- Focused on the **most expensive neighbourhood**
 
 ---
 
 ### 3. Host Growth vs Price Over Time
 
-A **dual-axis chart** displaying:
+A **dual-axes chart** displaying:
 
 - **New Airbnb hosts joining per year**
 - **Average listing price over time**
@@ -114,5 +119,5 @@ This visualization highlights **how platform growth correlates with pricing tren
 
 - **Python**
 - **Pandas** – Data manipulation and analysis
-- **Matplotlib** and **Seaborn** – Data visualization
+- **Seaborn** and **Matplotlib** – Data visualization
 - **Jupyter Notebook** – Interactive analysis environment
