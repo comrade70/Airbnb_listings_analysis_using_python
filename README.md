@@ -7,7 +7,7 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ## Project Overview
-This project analyzes **Airbnb listings data** to uncover insights about **pricing, neighbourhood trends, accommodation capacity, and host growth over time in Paris**.
+This project analyses **Airbnb listings data** to uncover insights about **pricing, neighbourhood trends, accommodation capacity, and host growth over time in Paris**.
 
 Using **Python and data analysis libraries**, the project explores the dataset, performs data quality checks, prepares aggregated tables, and creates visualisations to better understand the Airbnb market in Paris.
 
@@ -115,7 +115,7 @@ A **dual-axes chart** displaying:
 - **New Airbnb hosts joining per year**
 - **Average listing price over time**
 
-This visualization highlights **how platform growth correlates with pricing trends**.
+This visualisation highlights **how platform growth correlates with pricing trends**.
 
 ---
 
@@ -123,5 +123,5 @@ This visualization highlights **how platform growth correlates with pricing tren
 
 - **Python**
 - **Pandas** – Data manipulation and analysis
-- **Seaborn** and **Matplotlib** – Data visualization
+- **Seaborn** and **Matplotlib** – Data visualisation
 - **Jupyter Notebook** – Interactive analysis environment
